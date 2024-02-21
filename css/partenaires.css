@@ -1,0 +1,266 @@
+/*////////////////////////////////////////////////////////////////
+/////
+///// NE PAS MODIFIER !!!
+/////
+///////////////////////////////////////////////////////////////*/
+* {
+	margin: 0;
+	padding: 0;
+}
+/*////////////////////////////////////////////////////////////////
+/////
+///// (A MODIFIER !!!)
+/////
+///////////////////////////////////////////////////////////////*/
+body {
+  width: 1080px;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  background: url('../images/trading.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow-x: hidden;
+  color: white;
+  background-color: #000000;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+body::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.5);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  border: 1px solid black;
+}
+/*////////////////////////////////////////////////////////////////
+/////
+///// VOTRE STYLE POUR LE HEADER (A MODIFIER !!!)
+/////
+///////////////////////////////////////////////////////////////*/
+.header_style {
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    box-shadow: 2px 2px 12px #000000;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+    position: sticky;
+    top: 0;
+    opacity: 0.9;
+    border-radius: 0 0 10px 10px;
+    z-index: 2;
+  }
+
+.nav_style {
+    display: flex;
+}
+
+.ul_style {
+    display: flex;
+    list-style-type: none;
+    font-weight: bold;
+}
+  
+  .menu_style {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    border-radius: 8px;
+  }
+  
+  .menu_style:hover {
+    background-color: white;
+    color: black;
+    transition: all ease 0.3s;
+  }
+
+.main_style {
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.h1_style_2 {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px;
+}
+
+.etoile {
+  color: rgba(255, 220, 0, 0.9);
+}
+/*////////////////////////////////////////////////////////////////
+/////
+///// FIN NE PAS MODIFIER LA PARTIE EN DESSOUS !
+/////
+///////////////////////////////////////////////////////////////*/
+
+.main_style {
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  height: 350px;
+  margin: 50px;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+}
+
+.img_styles {
+  height: 350px;
+  width: 233px;
+  border-radius: 7px;
+  transition: 0.5s ease-in-out;
+}
+
+.intro {
+  height: 70px;
+  width: 233px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: relative;
+  bottom: 20%;
+  background: rgba(0, 0, 0, 0.6);
+  transition: 0.5s ease-in-out;
+}
+
+.petit_titre {
+  margin: 10px;
+  font-size: 23px; 
+}
+
+.sous_titre,
+.lien_style {
+  text-align: center;
+  font-size: 15px;
+  margin: 20px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.animation {
+  font-weight: bold;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card:hover .intro {
+  height: 220px;
+  bottom: 62%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.card:hover .sous_titre,
+.lien_style {
+  opacity: 1;
+  visibility: visible;
+}
+
+.card:hover .img_styles {
+  transform: scale(1.1) rotate(-3deg);
+}
+
+.lien_style {
+  padding: 3px 6px;
+  background: black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: rgba(255, 220, 0, 0.9);
+  font-weight: bold;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.6);
+  transition: 0.5s ease-in-out;
+}
+
+.lien_style:hover {
+  background: white;
+  color: black;
+}
+
+.docs{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  background: rgba(200, 200, 200, 0.7);
+  margin: 30px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 12px rgba(200, 200, 200, 0.8);
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.doc{
+  font-size: 15px;
+    padding: 5px 10px;
+    background: black;
+    border-radius: 5px;
+    text-decoration: none;
+    color:  rgba(255, 220, 0, 0.9);
+    font-weight: bold;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.6);
+    transition: 0.5s ease-in-out;
+  }
+  
+.doc:hover {
+    background: white;
+    color: black;
+  }
+
+/*////////////////////////////////////////////////////////////////
+/////
+///// VOTRE STYLE POUR LE FOOTER (A MODIFIER !!!)
+/////
+///////////////////////////////////////////////////////////////*/
+.footer_style {
+    width: 1080px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    box-shadow: 2px 2px 12px #000000;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    position: fixed;
+    bottom: 0;
+    border-radius: 10px 10px 0 0;
+    opacity: 0.9;
+    z-index: 11;
+  }
+
+  .footer_menu_style {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: all ease 0.7s;
+  }
+  
+  .footer_menu_style:hover {
+    transition: all ease 0.7s;
+    background-color: white;
+    color: black;
+  }

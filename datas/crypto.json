@@ -1,0 +1,402 @@
+[
+    {
+        "place": 1,
+        "nom": "Bitcoin",
+        "createur": "Satoshi Nakamoto",
+        "date_creation": 2009,
+        "offre_total": "21 millions",
+        "ath": "64 000 $"
+    },
+    {
+        "place": 2,
+        "nom": "Ethereum",
+        "createur": "Vitalik Buterin",
+        "date_creation": 2015,
+        "offre_total": "Illimité",
+        "ath": "4 000 $"
+    },
+    {
+        "place": 3,
+        "nom": "Tether",
+        "createur": "Tether Limited",
+        "date_creation": 2014,
+        "offre_total": "66 milliards",
+        "ath": "1 $"
+    },
+    {
+        "place": 4,
+        "nom": "BNB",
+        "createur": "Changpeng Zhao",
+        "date_creation": 2017,
+        "offre_total": "171 millions",
+        "ath": "400 $"
+    },
+    {
+        "place": 5,
+        "nom": "USD Coin",
+        "createur": "Circle et Coinbase",
+        "date_creation": 2018,
+        "offre_total": "Constante augmentation",
+        "ath": "1 $"
+    },
+    {
+        "place": 6,
+        "nom": "XRP",
+        "createur": "Ripple",
+        "date_creation": 2012,
+        "offre_total": "100 milliards",
+        "ath": "3,84 $"
+    },
+    {
+        "place": 7,
+        "nom": "Binance USD",
+        "createur": "Binance",
+        "date_creation": 2019,
+        "offre_total": "Constante augmentation",
+        "ath": "1 $"
+    },
+    {
+        "place": 8,
+        "nom": "Cardano",
+        "createur": "Charles Hoskinson",
+        "date_creation": 2015,
+        "offre_total": "45 milliards",
+        "ath": "2 $"
+    },
+    {
+        "place": 9,
+        "nom": "Dogecoin",
+        "createur": "Billy Markus et Jackson Palmer",
+        "date_creation": 2013,
+        "offre_total": "pas de limite d'offre",
+        "ath": "0,69 $"
+    },
+    {
+        "place": 10,
+        "nom": "Polygon",
+        "createur": "Jaynti Kanani, Sandeep Nailwal, et Anurag Arjun",
+        "date_creation": 2017,
+        "offre_total": "10 milliards",
+        "ath": "4 $"
+    },
+    {
+        "place": 11,
+        "nom": "Solana",
+        "createur": "Anatoly Yakovenko",
+        "date_creation": 2017,
+        "offre_total": "463 millions",
+        "ath": "70 $"
+    },
+    {
+        "place": 12,
+        "nom": "Polkadot",
+        "createur": "Gavin Wood",
+        "date_creation": 2020,
+        "offre_total": "10 milliards",
+        "ath": "40 $"
+    },
+    {
+        "place": 13,
+        "nom": "Litecoin",
+        "createur": "Charlie Lee",
+        "date_creation": 2011,
+        "offre_total": "84 millions",
+        "ath": "375 $"
+    },
+    {
+        "place": 14,
+        "nom": "Dai",
+        "createur": "MakerDAO",
+        "date_creation": 2017,
+        "offre_total": "Constante augmentation",
+        "ath": "1 $"
+    },
+    {
+        "place": 15,
+        "nom": "Shiba Inu",
+        "createur": "Ryoshi",
+        "date_creation": 2020,
+        "offre_total": "589 milles milliards",
+        "ath": "0.000086 $"
+    },
+    {
+        "place": 16,
+        "nom": "TRON",
+        "createur": "Justin Sun et son équipe",
+        "date_creation": 2017,
+        "offre_total": "100 milliards",
+        "ath": "0,30 $"
+    },
+    {
+        "place": 17,
+        "nom": "Avalanche",
+        "createur": "Emin Gün Sirer et son équipe",
+        "date_creation": 2020,
+        "offre_total": "720 Millions",
+        "ath": "40 $"
+    },
+    {
+        "place": 18,
+        "nom": "Uniswap",
+        "createur": "Hayden Adams",
+        "date_creation": 2018,
+        "offre_total": "Illimités",
+        "ath": "40 $"
+    },
+    {
+        "place": 19,
+        "nom": "Wrapped Bitcoin",
+        "createur": "Communauté de projet décentralisé",
+        "date_creation": 2019,
+        "offre_total": "Constante augmentation",
+        "ath": "Proche du cours du Bitcoin"
+    },
+    {
+        "place": 20,
+        "nom": "Cosmos",
+        "createur": "Tendermint Inc",
+        "date_creation": 2019,
+        "offre_total": "237 Millions d'unités",
+        "ath": "20 $"
+    },
+    {
+        "place": 21,
+        "nom": "Chainlink",
+        "createur": "SmartContract.com",
+        "date_creation": 2014,
+        "offre_total": "1 milliard",
+        "ath": "45 $"
+    },
+    {
+        "place": 22,
+        "nom": "UNUS SED LEO",
+        "createur": "iFinex Inc",
+        "date_creation": 2019,
+        "offre_total": "1 milliard",
+        "ath": "1,50 $"
+    },
+    {
+        "place": 23,
+        "nom": "Monero",
+        "createur": "thankful_for_today",
+        "date_creation": 2014,
+        "offre_total": "18.4 millions",
+        "ath": "470 $"
+    },
+    {
+        "place": 24,
+        "nom": "Ethereum Classic",
+        "createur": "Communauté de développeurs décentralisée",
+        "date_creation": 2016,
+        "offre_total": "210 millions",
+        "ath": "45 $"
+    },
+    {
+        "place": 25,
+        "nom": "Telegram Open Network",
+        "createur": "Telegram",
+        "date_creation": 2018,
+        "offre_total": "1 milliard",
+        "ath": "6 $"
+    },
+    {
+        "place": 26,
+        "nom": "Bitcoin Cash",
+        "createur": "Roger Ver et Jihan Wu",
+        "date_creation": 2017,
+        "offre_total": "21 millions",
+        "ath": "4 500 $"
+    },
+    {
+        "place": 27,
+        "nom": "Stellar",
+        "createur": "Jed McCaleb",
+        "date_creation": 2014,
+        "offre_total": "50 milliards",
+        "ath": "0,90 $"
+    },
+    {
+        "place": 28,
+        "nom": "NEAR Protocol",
+        "createur": "NEAR Inc",
+        "date_creation": 2020,
+        "offre_total": "1 milliard",
+        "ath": "2,50 $"
+    },
+    {
+        "place": 29,
+        "nom": "OKB",
+        "createur": "OKEx",
+        "date_creation": 2019,
+        "offre_total": "300 millions",
+        "ath": "5,50 $"
+    },
+    {
+        "place": 30,
+        "nom": "Lido DAO",
+        "createur": "Lido",
+        "date_creation": 2020,
+        "offre_total": "Illimité",
+        "ath": "7 $"
+    },
+    {
+        "place": 31,
+        "nom": "Quant",
+        "createur": "Paolo Tasca, Colin Paterson et Paolo Ardoino",
+        "date_creation": 2018,
+        "offre_total": "14 millions",
+        "ath": "20 $"
+    },
+    {
+        "place": 32,
+        "nom": "Filecoin",
+        "createur": "Juan Benet",
+        "date_creation": 2014,
+        "offre_total": "2 milliards",
+        "ath": "200 $"
+    },
+    {
+        "place": 33,
+        "nom": "Algorand",
+        "createur": "Silvio Micali",
+        "date_creation": 2017,
+        "offre_total": "10 milliards",
+        "ath": "2,50 $"
+    },
+    {
+        "place": 34,
+        "nom": "VeChain",
+        "createur": "Sunny Lu",
+        "date_creation": 2015,
+        "offre_total": "86 milliards",
+        "ath": "0,0194 $"
+    },
+    {
+        "place": 35,
+        "nom": "Internet Computer",
+        "createur": "société Dfinity",
+        "date_creation": 2021,
+        "offre_total": "2 milliards",
+        "ath": "$735.99"
+    },
+    {
+        "place": 36,
+        "nom": "Hedera Hashgraph",
+        "createur": "Leemon et Mance Harmon",
+        "date_creation": 2017,
+        "offre_total": "50 milliards",
+        "ath": "0,40 $"
+    },
+    {
+        "place": 37,
+        "nom": "Decentraland",
+        "createur": "Esteban Ordano et Matt Hall",
+        "date_creation": 2015,
+        "offre_total": "12 milliards",
+        "ath": "0.35 $"
+    },
+    {
+        "place": 38,
+        "nom": "Aave",
+        "createur": "Stani Kulechov",
+        "date_creation": 2020,
+        "offre_total": "9.5 milliards",
+        "ath": "3.18 $"
+    },
+    {
+        "place": 39,
+        "nom": "EOS",
+        "createur": "Block.one",
+        "date_creation": 2018,
+        "offre_total": "2,9 milliards",
+        "ath": "22,89 $"
+    },
+    {
+        "place": 40,
+        "nom": "The Sandbox",
+        "createur": "Pixowl",
+        "date_creation": 2012,
+        "offre_total": "2 milliards",
+        "ath": "8 $"
+    },
+    {
+        "place": 41,
+        "nom": "Flow",
+        "createur": "Dapper Labs",
+        "date_creation": 2020,
+        "offre_total": "778,8 millions",
+        "ath": "38 $"
+    },
+    {
+        "place": 42,
+        "nom": "Terra Classic",
+        "createur": "équipe de développeurs basée en Corée du Sud",
+        "date_creation": 2018,
+        "offre_total": "100 millions",
+        "ath": "133 $"
+    },
+    {
+        "place": 43,
+        "nom": "Tezos",
+        "createur": "Arthur Breitman",
+        "date_creation": 2014,
+        "offre_total": "763 millions",
+        "ath": "10,08 $"
+    },
+    {
+        "place": 44,
+        "nom": "Axie Infinity",
+        "createur": "Matthew Le Merle",
+        "date_creation": 2018,
+        "offre_total": "1.000.000 millions",
+        "ath": "33,24 $"
+    },
+    {
+        "place": 45,
+        "nom": "Chiliz",
+        "createur": "Alexandre Dreyfus",
+        "date_creation": 2019,
+        "offre_total": "8,888 milliards",
+        "ath": "0.74 $"
+    },
+    {
+        "place": 46,
+        "nom": "The Graph",
+        "createur": "The Graph Inc",
+        "date_creation": 2018,
+        "offre_total": "10 milliards",
+        "ath": "1,74 $"
+    },
+    {
+        "place": 47,
+        "nom": "Zcash",
+        "createur": "Zooko Wilcox",
+        "date_creation": 2016,
+        "offre_total": "11,19 millions",
+        "ath": "888 $"
+    },
+    {
+        "place": 48,
+        "nom": "Maker",
+        "createur": "Rune Christensen",
+        "date_creation": 2015,
+        "offre_total": "1,7 million",
+        "ath": "2 078 $"
+    },
+    {
+        "place": 49,
+        "nom": "Dash",
+        "createur": "Evan Duffield",
+        "date_creation": 2014,
+        "offre_total": "11 millions",
+        "ath": "1 400 $"
+    },
+    {
+        "place": 50,
+        "nom": "Compound",
+        "createur": "Anonyme",
+        "date_creation": 2020,
+        "offre_total": "10 millions",
+        "ath": "760 $"
+    }
+]

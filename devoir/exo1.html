@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Exemple de page avec Javascript</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        font-family: sans-serif;
+        font-size: 16px;
+        color: #000;
+        background-color: #fff;
+      }
+      h1 {
+        background-color: #ccc;
+        text-shadow: 1px 1px yellow;
+        padding: 12px;
+        text-align: center;
+      }
+      p {
+        padding: 12px;
+      }
+      #logo {
+        width: 120px;
+      }
+      .important {
+        color: orange;
+        text-shadow: 1px 1px #000;
+      }
+    </style>
+    <script>
+      // déclaration des variables
+      var prenom="Jérôme "
+      var nom="Landré"
+      var age=48
+    </script> 
+  </head>
+
+  <body>
+    <p><img src="https://www.iut-troyes.univ-reims.fr/assets/img/Logo_IUT_OK_FondJaune.png" alt="logo IUT" id="logo" /></p>
+    <h1>Page contenant du Javascript</h1>
+    <p>Avec Javascript, on peut faire des calculs : <br />
+      123 + 456 = <script>document.write(123+456)</script><br />
+      3,45x(-123,3) = <script>document.write(3,45*(-123,3))</script><br />
+      1234567/543 = <script>document.write(1234567/543)</script>
+    </p>
+    <p>On peut aussi écrire du texte : <script>document.write("Bonjour "+prenom+nom)</script>.</p>
+    <p>On peut faire des boucles : <script>
+for (i=0; i<10;i++) {
+document.write(i+" ")
+}
+</script></p>
+    <p>On peut tester des valeurs : <script>
+if (age>=18) {
+document.write("Vous êtes majeur !")
+} else {
+document.write("Vous êtes mineur !")
+}
+</script></p>
+    <p>On peut réagir à des événements (en appelant des fonctions) : <button onclick="afficher_infos()">Cliquez sur moi s'il vous plaît !</button></p>
+    <p class="important">Avec Javascript, on peut tout tester dans le navigateur de la machine locale, c'est un langage CÔTÉ CLIENT !</p>
+  </body>
+  <script>
+function afficher_infos() {
+alert("Cette information s'affiche parce que vous avez appuyé sur le bouton !") }
+</script>
+</html>
+
+
+<!--
+Question I, 1-a) Oui
+Question I, 1-b) Il doit y avoir une balise <script></script>
+Question I, 1-c) Il ne se passe rien...
+Question I, 2-a) <script></script>
+
+-->

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulaire.css">
+    <title>test</title>
+</head>
+<body>
+    
+    <section class="corp_list">
+        <h1 class="titre_corps">Inscription</h1>
+          <div class="login-page">
+              <div class="form">
+                  <form class="register-form" style="display: inline-grid;" method="post">
+                    <h1>Informations personnelle :</h1>
+                    <p>Sélectioner votre Civilité :</p>
+                    <div style="display: flex; margin: auto;">
+                      <input type="radio" id="m" name="fav_language" value="M.">
+                      <label for="m">M.</label><br>
+                      <input type="radio" id="mme" name="fav_language" value="Mme.">
+                      <label for="mme">Mme.</label><br>
+                    </div>
+                    <br>
+                      <label>Nom*</label>
+                      <input type="text" name="nom" placeholder="Votre Nom" required=""/><br>
+    
+                      <label>Prénom*</label>
+                      <input type="text" name="prenom" placeholder="Votre Prénom" required=""/><br>
+      
+                      <label>Adresse em@il*</label>
+                      <input type="email" name="mail" placeholder="Mail" required=""/><br>
+                    <br>
+                      <select name="liste" id="liste" class="..." required="">
+                        <option value="">Choisir votre Nationalité</option>
+                        <option value="1">France</option>
+                        <option value="n">Angleterre</option>
+                        <option value="n">Amérique</option>
+                    </select>
+
+                <h1>Adresse de Livraison :</h1>
+    
+                    <fieldset class="adresse">
+                        <legend>Adresse</legend>
+                        <label>Rue</label>
+                        <input id="rue" name="rue" type="text" required=""/><br /><br>
+                        <label>Code postal</label>
+                        <input id="code-postal" name="code-postal" pattern="[0-9]{5}" required=""/><br /><br>
+                        <label>Ville</label>
+                        <input id="ville" name="ville" type="text" required=""/><br><br>
+                        <select name="liste" id="liste" class="..." required="">
+                            <option value="">Votre pays*</option>
+                            <option value="1">France</option>
+                            <option value="n">Angleterre</option>
+                            <option value="n">Amérique</option>
+                        </select>
+                   </fieldset>
+
+                   <h1>Informations de paiement :</h1>
+    
+                   <fieldset>
+                    <legend>Paiement</legend>
+                      <br>
+                      <p>
+                        <label>
+                          <input type="radio" name="banque" value="visa" id="banque_0">
+                        Visa</label>
+                        <br>
+                        <label>
+                          <input type="radio" name="banque" value="mastercard" id="banque_1">
+                          Mastercard</label>
+                        <br>
+                        <label>
+                          <input type="radio" name="banque" value="americanexpress" id="banque_2">
+                          American Express</label>
+                        <br>
+                        <label>
+                          <input type="radio" name="banque" value="autre" id="banque_3">
+                          Autre carte bancaire</label>
+                          <label for="autrecb">:</label>
+                          <input name="autrecb" type="text" id="autrecb" title="autre carte bancaire" size="50">
+                          <br>
+                      </p>
+                    <br>
+                    <p>
+                      <label for="porteur">Nom du porteur :</label>
+                      <input name="porteur" type="text" id="porteur" placeholder="Mme Chantal Dupuis" title="nom du porteur de la carte" size="50" required="">
+                    </p>
+                      <p>
+                        <label for="numerocarte">Numéro de la carte :</label>
+                        <input name="numerocarte" type="text" id="numerocarte" placeholder="1111222233334444" title="numéro de la carte bancaire" size="50" required="">
+                      </p>
+                      <p>
+                        <label for="code">Code de sécurité:</label>
+                        <input name="code" type="text" id="code" placeholder="123" title="les 3 derniers chiffres du verso" size="10" maxlength="3" required="">
+                      </p>
+                    </fieldset>
+                    <br>
+                    <input type="checkbox" id="cgu" name="fav_language" value="Acceptation des CGU">
+                    <label for="cgu">Acceptation des CGU</label><br>
+      
+                      <button type="submit" class="button" name="inscription">Inscription</button>
+      
+                  </form>
+              </div>
+          </div>
+      </section>
+
+</body>
+</html>
+
